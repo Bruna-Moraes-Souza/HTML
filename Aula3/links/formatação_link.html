@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de links</title>
+    <style>
+        /*seletores de tags - no caso, tag a, de link (pseudoclasses, por causa dos estudos de a)*/
+
+        /*Links normal*/
+        a:link {
+            color:rgb(133, 8, 140);
+            text-decoration: none;
+        }
+        /*Link ja visitado*/
+        a:visited{
+            color:rgb(98, 49, 171);
+        }
+        /*Quando o mouse passa por cima*/
+        a:hover {
+            color:rgb(10, 10, 231);
+            text-decoration: underline;
+            font-size: 100px;
+        }
+        /*Enquanto o link é clicado*/
+        a:active {
+            color:rgb(6, 135, 135);
+        }
+    </style>
+</head>
+<body>
+    <h1>Formatação de links com CSS</h1>
+    <p><a href="#">Formatação de links</a></p>
+</body>
+</html>
