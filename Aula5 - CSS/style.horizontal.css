@@ -1,0 +1,16 @@
+ul {
+    list-style: nome;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(15, 4, 19);
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+a {
+    display: block;
+    color: rgb(239, 15, 168);
+    padding: 14px 20px;
+    text-decoration: none;
+}

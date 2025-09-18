@@ -1,0 +1,18 @@
+ul {
+    list-style: nome;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(15, 4, 19);
+}
+
+a{
+    display: block;
+    color: rgb(239, 15, 168);
+    padding: 14px;
+    text-decoration: none;
+}
+a:hover{
+    color:black;
+    text-decoration: none;
+    background-color: blue;
+}
