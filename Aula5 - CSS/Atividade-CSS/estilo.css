@@ -1,0 +1,86 @@
+/* Universal */
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Cabeçalho */
+#titulo {
+    text-align: center;
+    color: darkblue;
+    margin: 20px 0;
+}
+
+/* Menu horizontal */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding: 10px;
+}
+.menu li {
+    margin: 0 15px;
+}
+.menu a {
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+.menu a:hover {
+    color: navy;
+}
+
+/* Imagem centralizada */
+.imagem {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid darkblue;
+    padding: 5px;
+}
+
+/* Texto */
+.texto {
+    width: 80%;
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 16px;
+    color: #00615d;
+}
+
+/* Lista */
+.lista {
+    width: 80%;
+    margin: 10px auto;
+    list-style-type: square;
+}
+
+/* Tabela */
+.tabela {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.tabela th, .tabela td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.tabela tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Compartilhado */
+h1, h2 {
+    color: rgb(25, 2, 126);
+    text-align: center;
+    margin: 15px 0;
+
+}
+
+footer{
+    background-color: lightblue;
+    text-align: center;
+}
