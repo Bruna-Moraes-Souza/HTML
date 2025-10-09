@@ -1,0 +1,36 @@
+button {
+    background: blue;
+    color: white;
+    transition: background 0.3s ease; /* duração e efeito*/
+    border: none;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: darkblue;
+    transform: scale(1.2); /* aumenta 20%*/
+}
+
+@keyframes piscar {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+ div {
+    animation: piscar 3s infinite;
+ }
+ img:hover {
+    transform: rotate(20deg);
+    transform: transform 0.5s;
+ }
+ 
+ div:hover {
+    transform: translate(50px, 20px); /* x, y */
+ }
+ div {
+    background: linear-gradient(to right, rgb(149, 0, 255), rgb(50, 0, 232),);
+ }
+ div {
+    background: radial-gradient(circle, blue, yellow);
+}
